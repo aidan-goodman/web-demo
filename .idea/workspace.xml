@@ -7,8 +7,29 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="update 2">
+    <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="update 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/BookstoreManagement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/BookstoreManagement.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/cart/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/cart/checkout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/manager/book_edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/manager/book_manager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/manager/manager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/manager/order_manager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/order/order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/user/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/user/login_success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/user/regist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/user/regist_success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/static/img/code.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/static/img/default.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/static/img/logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/static/img/pwd-icons-new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/static/script/jquery-1.7.2.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +73,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/BookstoreManagement/web/static/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BookstoreManagement" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.16104871" />
     <property name="project.structure.side.proportion" value="0.22144522" />
@@ -167,6 +188,9 @@
       <option name="presentableId" value="Default" />
       <updated>1628342639857</updated>
       <workItem from="1628342641219" duration="4170000" />
+      <workItem from="1628349084508" duration="72000" />
+      <workItem from="1628349192010" duration="87000" />
+      <workItem from="1628349348662" duration="143000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1628343189982</created>
@@ -189,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628348919212</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update 3">
+      <created>1628349107218</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628349107218</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,10 +236,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="update 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 2" />
+    <MESSAGE value="update 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 3" />
   </component>
 </project>
