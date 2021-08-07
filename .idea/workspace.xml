@@ -3,38 +3,28 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="BookstoreManagement" />
-      <artifact name="BookstoreManagement" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="update 3">
+    <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="二次更新">
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BookstoreManagement.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/BookstoreManagement.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BookstoreManagement_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/BookstoreManagement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/BookstoreManagement.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/cart/cart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/cart/checkout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/manager/book_edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/manager/book_manager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/manager/manager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/manager/order_manager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/order/order.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/user/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/user/login_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/user/regist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/user/regist_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/static/img/code.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/static/img/default.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/static/img/logo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/static/img/pwd-icons-new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/static/script/jquery-1.7.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/user/regist.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/user/regist.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,12 +52,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1wOvqC2F3ZspdqfjHZPnz6W94AU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -77,19 +71,20 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.16104871" />
     <property name="project.structure.side.proportion" value="0.22144522" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion.Network" />
   </component>
   <component name="Push.Settings">
     <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\static\img" />
+      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement" />
       <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web" />
+      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\static\img" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Bookstore" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.0-M9" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/BookstoreManagement/" />
       <option name="BROWSER_ID" value="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -174,12 +169,14 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="BookstoreManagement" />
-          <artifact name="BookstoreManagement" />
         </option>
       </method>
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\xiao\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="" />
@@ -191,6 +188,7 @@
       <workItem from="1628349084508" duration="72000" />
       <workItem from="1628349192010" duration="87000" />
       <workItem from="1628349348662" duration="143000" />
+      <workItem from="1628349529626" duration="2466000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1628343189982</created>
@@ -220,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628349107218</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="重建">
+      <created>1628349718360</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628349718360</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +236,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -239,9 +250,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test" />
     <MESSAGE value="update 2" />
     <MESSAGE value="update 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 3" />
+    <MESSAGE value="重建" />
+    <MESSAGE value="二次更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="二次更新" />
   </component>
 </project>

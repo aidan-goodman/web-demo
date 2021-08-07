@@ -28,3 +28,32 @@ H5+C3+JS+JQuery、Servlet、Cookie&Session、Filter、XML&JSON、Ajax
    2. 对邮箱进行格式的验证，格式为 `xxxxx@xxx.com`，正则表达式为 `/^[a-z\d]+(\.[a-z\d]+)*@([\da-z](-[\da-z])?)+(\.{1,2}[a-z]+)+$/`
    3. 因为只是静态页面，这里的验证码判断有内容输入即可
 3. 登陆成功跳转到 regist_success.html 页面
+
+### 二次更新
+
+1. 完善项目结构：根据三层架构对将要编写的业务代码进行解耦（创建包结构），方便后期维护和扩展升级
+2. 创建数据库和所需要的表
+   ```sql
+      drop database if exists book;
+      
+      create database book;
+      
+      use book;
+      
+      create table t_user(
+          `id` int primary key auto_increment,
+          `username` varchar(20) not null unique,
+          `password` varchar(32) not null,
+          `email` varchar(200)
+      );
+      
+      insert into t_user(`username`,`password`,`email`) values('aidan','aidan','aidan@aidan.com');
+      
+      select * from t_user;
+   ```
+3. 编写对应数据库对象的JavaBean进行交互
+
+
+
+
+
