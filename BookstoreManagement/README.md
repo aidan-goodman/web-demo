@@ -2,7 +2,13 @@
 
 ## 创建环境
 
-IDEA + Tomcat + JDK
+IDEA + JDK + Tomcat + MySQL + JDBC
+
+### jar 包
+
+jar 包统一在 [Maven Repository](https://mvnrepository.com/) 进行下载
+* mysql-connector-java-8.0.25
+* druid-1.2.6
 
 ## 运用技术
 
@@ -51,7 +57,10 @@ H5+C3+JS+JQuery、Servlet、Cookie&Session、Filter、XML&JSON、Ajax
       
       select * from t_user;
    ```
-3. 编写对应数据库对象的JavaBean进行交互
+3. 编写对应数据库对象的 JavaBean 进行交互
+4. 编写 Dao 持久层，为了简化操作统一管理，先编写 JDBCUtils 工具类
+   1. 使用阿里的数据库连接池，导入 druid.jar
+   2. 将 JDBC 数据写入 jdbc.properties 方便统一修改
 
 
 

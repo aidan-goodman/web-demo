@@ -7,18 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="二次更新">
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BookstoreManagement.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/BookstoreManagement.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/test/jdbcUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/utils/jdbcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/lib/druid-1.2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/lib/mysql-connector-java-8.0.25.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/BookstoreManagement_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/BookstoreManagement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/BookstoreManagement.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/user/regist.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookstoreManagement/pages/user/regist.html" afterDir="false" />
     </list>
+    <list id="0d206641-ca83-4506-83f5-df0d7eac7362" name="ignored" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -53,6 +60,7 @@
   </component>
   <component name="ProjectId" id="1wOvqC2F3ZspdqfjHZPnz6W94AU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -62,13 +70,17 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/BookstoreManagement" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BookstoreManagement/src" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16104871" />
     <property name="project.structure.side.proportion" value="0.22144522" />
     <property name="settings.editor.selected.configurable" value="vcs.Subversion.Network" />
@@ -78,12 +90,32 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\src" />
+      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\WEB-INF\lib" />
       <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement" />
       <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web" />
       <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\static\img" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.jdbcUtilsTest.testJdbcUtils">
+    <configuration name="jdbcUtilsTest.testJdbcUtils" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BookstoreManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aidan.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aidan.test" />
+      <option name="MAIN_CLASS_NAME" value="com.aidan.test.jdbcUtilsTest" />
+      <option name="METHOD_NAME" value="testJdbcUtils" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Bookstore" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.0-M9" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11">
       <option name="BROWSER_ID" value="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -172,6 +204,15 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.jdbcUtilsTest.testJdbcUtils" />
+      <item itemvalue="Tomcat Server.Bookstore" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.jdbcUtilsTest.testJdbcUtils" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -180,6 +221,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="" />
+      <changelist id="0d206641-ca83-4506-83f5-df0d7eac7362" name="ignored" comment="" />
       <created>1628342639857</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -188,7 +230,7 @@
       <workItem from="1628349084508" duration="72000" />
       <workItem from="1628349192010" duration="87000" />
       <workItem from="1628349348662" duration="143000" />
-      <workItem from="1628349529626" duration="2466000" />
+      <workItem from="1628349529626" duration="4652000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1628343189982</created>
@@ -225,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628349718360</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="二次更新">
+      <created>1628352079742</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628352079742</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
