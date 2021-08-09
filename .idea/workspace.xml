@@ -6,18 +6,33 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="二次更新">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/test/jdbcUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/utils/jdbcUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/lib/druid-1.2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/lib/mysql-connector-java-8.0.25.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BookstoreManagement_war_exploded.xml" beforeDir="false" />
+    <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="8First更新">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/dao/impl/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/test/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/test/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/RegistServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/static/img/Three-tier architecture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/static/img/userModule.drawio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/BookstoreManagement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/BookstoreManagement.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/test/jdbcUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/test/jdbcUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/utils/jdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/utils/JdbcUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/login_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/login_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <list id="0d206641-ca83-4506-83f5-df0d7eac7362" name="ignored" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="TestNG Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -78,8 +95,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/BookstoreManagement/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BookstoreManagement/web/static/img" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16104871" />
     <property name="project.structure.side.proportion" value="0.22144522" />
@@ -90,14 +110,38 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\src" />
+      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\static\img" />
       <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\WEB-INF\lib" />
+      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\src" />
       <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement" />
       <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web" />
-      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\static\img" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.aidan.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.jdbcUtilsTest.testJdbcUtils">
+  <component name="RunManager" selected="Tomcat Server.Bookstore">
+    <configuration name="UserDaoTest.testQueryUserByUsername" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BookstoreManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aidan.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aidan.test" />
+      <option name="MAIN_CLASS_NAME" value="com.aidan.test.UserDaoTest" />
+      <option name="METHOD_NAME" value="testQueryUserByUsername" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="jdbcUtilsTest.testJdbcUtils" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BookstoreManagement" />
       <extension name="coverage">
@@ -118,7 +162,8 @@
     </configuration>
     <configuration name="Bookstore" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.0-M9" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11">
       <option name="BROWSER_ID" value="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="BookstoreManagement">
           <settings>
@@ -206,10 +251,12 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.jdbcUtilsTest.testJdbcUtils" />
+      <item itemvalue="TestNG.UserDaoTest.testQueryUserByUsername" />
       <item itemvalue="Tomcat Server.Bookstore" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UserDaoTest.testQueryUserByUsername" />
         <item itemvalue="TestNG.jdbcUtilsTest.testJdbcUtils" />
       </list>
     </recent_temporary>
@@ -231,6 +278,11 @@
       <workItem from="1628349192010" duration="87000" />
       <workItem from="1628349348662" duration="143000" />
       <workItem from="1628349529626" duration="4652000" />
+      <workItem from="1628354253043" duration="440000" />
+      <workItem from="1628388952860" duration="8000" />
+      <workItem from="1628402441738" duration="1984000" />
+      <workItem from="1628465868265" duration="6422000" />
+      <workItem from="1628478597488" duration="5696000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1628343189982</created>
@@ -274,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628352079742</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="8First更新">
+      <created>1628354557890</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1628354557890</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +364,7 @@
     <MESSAGE value="update 3" />
     <MESSAGE value="重建" />
     <MESSAGE value="二次更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="二次更新" />
+    <MESSAGE value="8First更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="8First更新" />
   </component>
 </project>

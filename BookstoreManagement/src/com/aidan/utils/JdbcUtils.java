@@ -8,7 +8,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.Properties;
 
-public class jdbcUtils {
+public class JdbcUtils {
 
     private static DruidDataSource dataSource;
 
@@ -17,7 +17,7 @@ public class jdbcUtils {
         try {
             Properties properties = new Properties();
             // 读取 jdbc.properties 配置文件
-            InputStream resourceAsStream = jdbcUtils.class.getClassLoader().getResourceAsStream("jdbc.properties");
+            InputStream resourceAsStream = JdbcUtils.class.getClassLoader().getResourceAsStream("jdbc.properties");
             // 从流中加载数据
             properties.load(resourceAsStream);
             // 创建数据库连接池
@@ -31,7 +31,7 @@ public class jdbcUtils {
     }
 
     /**
-     * 获取数据库连接处中的连接
+     * 获取数据库连接
      */
     public static Connection getConnection() {
         Connection connection = null;
