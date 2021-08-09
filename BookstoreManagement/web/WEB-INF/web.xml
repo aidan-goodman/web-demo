@@ -32,4 +32,17 @@
     </servlet-mapping>
 
 
+
+    <servlet>
+        <servlet-name>bookServlet</servlet-name>
+        <servlet-class>com.aidan.web.BookServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>bookServlet</servlet-name>
+        <url-pattern>/manager/bookServlet</url-pattern>
+    </servlet-mapping>
+
+
+
 </web-app>

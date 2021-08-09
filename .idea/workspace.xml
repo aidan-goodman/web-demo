@@ -6,53 +6,36 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="二次更新">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/test/UserServletTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/utils/WebUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/BaseServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/lib/commons-beanutils-1.9.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/cart/checkout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/head.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/login_success_menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/manager_menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/manager.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/login_success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist_success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/static/img/Information_echo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/static/img/ServletReflect.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/static/script/jquery-3.6.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BookstoreManagement.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/BookstoreManagement.xml" afterDir="false" />
+    <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="三次更新">
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/pojo/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/pojo/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/test/BookDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/test/BookServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/BookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/lib/jakarta.servlet.jsp.jstl-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/lib/jsp-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/page_nav.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/BookstoreManagement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/BookstoreManagement.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/RegistServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/RegistServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/src/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/src/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/utils/WebUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/utils/WebUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/BaseServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/cart/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/cart/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/cart/checkout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/manager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/order_manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/order_manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/order/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/order/order.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/login_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist_success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/manager_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/manager_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/manager.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/static/img/Three-tier architecture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/static/img/Architecture.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/static/img/userModule.drawio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/static/script/jquery-1.7.2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <list id="0d206641-ca83-4506-83f5-df0d7eac7362" name="ignored" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +49,7 @@
         <option value="Interface" />
         <option value="TestNG Test Class" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -82,6 +66,7 @@
   </component>
   <component name="JspContextManager">
     <jsp-to-context jsp-file="file://$PROJECT_DIR$/BookstoreManagement/web/pages/common/head.jsp" context-file="file://$PROJECT_DIR$/BookstoreManagement/web/pages/cart/checkout.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/BookstoreManagement/web/pages/common/manager_menu.jsp" context-file="file://$PROJECT_DIR$/BookstoreManagement/web/pages/manager/manager.jsp" />
     <jsp-to-context jsp-file="file://$PROJECT_DIR$/BookstoreManagement/web/pages/common/login_success_menu.jsp" context-file="file://$PROJECT_DIR$/BookstoreManagement/web/pages/cart/checkout.jsp" />
   </component>
   <component name="LogFilters">
@@ -122,19 +107,22 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/BookstoreManagement/web/static/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/lib" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16104871" />
     <property name="project.structure.side.proportion" value="0.22144522" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion.Network" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="Push.Settings">
     <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.aidan.dao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\static\img" />
       <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\WEB-INF\lib" />
+      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\static\img" />
       <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\src\com\aidan\test" />
       <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\static\script" />
       <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web" />
@@ -147,7 +135,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Bookstore">
-    <configuration name="UserDaoTest.testQueryUserByUsername" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BookDaoTest.testQueryForPageTotalCount" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BookstoreManagement" />
       <extension name="coverage">
         <pattern>
@@ -156,26 +144,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.aidan.test" />
-      <option name="MAIN_CLASS_NAME" value="com.aidan.test.UserDaoTest" />
-      <option name="METHOD_NAME" value="testQueryUserByUsername" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="jdbcUtilsTest.testJdbcUtils" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BookstoreManagement" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aidan.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.aidan.test" />
-      <option name="MAIN_CLASS_NAME" value="com.aidan.test.jdbcUtilsTest" />
-      <option name="METHOD_NAME" value="testJdbcUtils" />
+      <option name="MAIN_CLASS_NAME" value="com.aidan.test.BookDaoTest" />
+      <option name="METHOD_NAME" value="testQueryForPageTotalCount" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -272,15 +242,9 @@
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="TestNG.jdbcUtilsTest.testJdbcUtils" />
-      <item itemvalue="TestNG.UserDaoTest.testQueryUserByUsername" />
-      <item itemvalue="Tomcat Server.Bookstore" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UserDaoTest.testQueryUserByUsername" />
-        <item itemvalue="TestNG.jdbcUtilsTest.testJdbcUtils" />
+        <item itemvalue="TestNG.BookDaoTest.testQueryForPageTotalCount" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +270,11 @@
       <workItem from="1628402441738" duration="1984000" />
       <workItem from="1628465868265" duration="6422000" />
       <workItem from="1628478597488" duration="8753000" />
-      <workItem from="1628496633909" duration="4708000" />
+      <workItem from="1628496633909" duration="7012000" />
+      <workItem from="1628511213522" duration="435000" />
+      <workItem from="1628511682963" duration="5915000" />
+      <workItem from="1628517688253" duration="6656000" />
+      <workItem from="1628525484107" duration="4111000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1628343189982</created>
@@ -364,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628493673567</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="三次更新">
+      <created>1628501458189</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628501458189</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,6 +371,7 @@
     <MESSAGE value="重建" />
     <MESSAGE value="8First更新" />
     <MESSAGE value="二次更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="二次更新" />
+    <MESSAGE value="三次更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="三次更新" />
   </component>
 </project>

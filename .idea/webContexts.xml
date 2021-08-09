@@ -6,6 +6,8 @@
         <entry key="file://$PROJECT_DIR$/BookstoreManagement/web/index.html" value="file://$PROJECT_DIR$/BookstoreManagement/web" />
         <entry key="file://$PROJECT_DIR$/BookstoreManagement/web/pages/common/head.jsp" value="file://$PROJECT_DIR$/BookstoreManagement/web/pages/common" />
         <entry key="file://$PROJECT_DIR$/BookstoreManagement/web/pages/common/login_success_menu.jsp" value="file://$PROJECT_DIR$/BookstoreManagement/web/pages/common" />
+        <entry key="file://$PROJECT_DIR$/BookstoreManagement/web/pages/common/manager_menu.jsp" value="file://$PROJECT_DIR$/BookstoreManagement/web/pages/common" />
+        <entry key="file://$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_manager.jsp" value="file://$PROJECT_DIR$/BookstoreManagement/web/pages/manager" />
         <entry key="file://$PROJECT_DIR$/BookstoreManagement/web/pages/user/login.html" value="file://$PROJECT_DIR$/BookstoreManagement/web/pages/user" />
         <entry key="file://$PROJECT_DIR$/BookstoreManagement/web/pages/user/login.jsp" value="file://$PROJECT_DIR$/BookstoreManagement/web/pages/user" />
         <entry key="file://$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist.html" value="file://$PROJECT_DIR$/BookstoreManagement/web/pages/user" />
