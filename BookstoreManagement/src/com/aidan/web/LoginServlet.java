@@ -11,7 +11,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class LoginServlet extends HttpServlet {
-    UserService userService = new UserServiceImpl();
+    private final UserService userService = new UserServiceImpl();
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -24,9 +24,13 @@ public class LoginServlet extends HttpServlet {
 
         // 3. 根据Login()返回值判断用户名密码是否匹配
         if (loginUser == null) {
-            req.getRequestDispatcher("/pages/user/login.html").forward(req, resp);
+            // 把错误信息，和回显的表单项信息，保存到Request域中
+            req.setAttribute("msg","用户或密码错误！");
+            req.setAttribute("username", username);
+
+            req.getRequestDispatcher("/pages/user/login.jsp").forward(req, resp);
         } else {
-            req.getRequestDispatcher("/pages/user/login_success.html").forward(req, resp);
+            req.getRequestDispatcher("/pages/user/login_success.jsp").forward(req, resp);
 
         }
     }

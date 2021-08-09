@@ -1,11 +1,14 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
-<html lang="zh">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>尚硅谷会员注册页面</title>
-    <base href="http://localhost:8080/BookstoreManagement/">
-    <link type="text/css" rel="stylesheet" href="static/css/style.css">
-    <script type="text/javascript" src="static/script/jquery-1.7.2.js"></script>
+
+    <%-- 静态包含 base标签、css样式、jQuery文件 --%>
+    <%@ include file="/pages/common/head.jsp" %>
+
+
     <script type="text/javascript">
         // 页面加载完成之后
         $(function () {
@@ -19,7 +22,7 @@
                 //3 使用test方法验证
                 if (!usernamePatt.test(usernameText)) {
                     //4 提示用户结果
-                    alert("用户名输入不合法");
+                    $("span.errorMsg").text("用户名不合法！");
 
                     return false;
                 }
@@ -32,18 +35,18 @@
                 //3 使用test方法验证
                 if (!passwordPatt.test(passwordText)) {
                     //4 提示用户结果
-                    alert("密码不合法！");
+                    $("span.errorMsg").text("密码不合法！");
 
                     return false;
                 }
 
                 // 验证确认密码：和密码相同
                 //1 获取确认密码内容
-                let repwdText = $("#repwd").val();
+                var repwdText = $("#repwd").val();
                 //2 和密码相比较
                 if (repwdText != passwordText) {
                     //3 提示用户
-                    alerttext("确认密码和密码不一致！");
+                    $("span.errorMsg").text("确认密码和密码不一致！");
 
                     return false;
                 }
@@ -56,28 +59,41 @@
                 //3 使用test方法验证是否合法
                 if (!emailPatt.test(emailText)) {
                     //4 提示用户
-                    alert("邮箱格式不合法！");
+                    $("span.errorMsg").text("邮箱格式不合法！");
 
                     return false;
                 }
 
-                // 验证码：现在只需要验证用户已输入。因为还没连接到服务器，验证码只要有内容就可以了
+                // 验证码：现在只需要验证用户已输入。因为还没讲到服务器。验证码生成。
                 var codeText = $("#code").val();
 
                 //去掉验证码前后空格
+                // alert("去空格前：["+codeText+"]")
                 codeText = $.trim(codeText);
+                // alert("去空格后：["+codeText+"]")
 
                 if (codeText == null || codeText == "") {
                     //4 提示用户
-                    alert("验证码不能为空！");
+                    $("span.errorMsg").text("验证码不能为空！");
 
                     return false;
                 }
+
+                // 去掉错误信息
+                $("span.errorMsg").text("");
+
             });
 
         });
 
     </script>
+    <style type="text/css">
+        .login_form {
+            height: 420px;
+            margin-top: 25px;
+        }
+
+    </style>
 </head>
 <body>
 <div id="login_header">
@@ -91,15 +107,20 @@
     </div>
 
     <div id="content">
-        <div class="login_form" style="height: 420px;margin-top: 25px;">
+        <div class="login_form">
             <div class="login_box">
                 <div class="tit">
                     <h1>注册尚硅谷会员</h1>
+                    <span class="errorMsg">
+                        ${ requestScope.msg }
+                    </span>
                 </div>
                 <div class="form">
-                    <form action="registServlet" method="post">
+                    <form action="userServlet" method="post">
+                        <input type="hidden" name="action" value="regist">
                         <label>用户名称：</label>
                         <input class="itxt" type="text" placeholder="请输入用户名"
+                               value="${requestScope.username}"
                                autocomplete="off" tabindex="1" name="username" id="username"/>
                         <br/>
                         <br/>
@@ -115,11 +136,12 @@
                         <br/>
                         <label>电子邮件：</label>
                         <input class="itxt" type="text" placeholder="请输入邮箱地址"
+                               value="${requestScope.email}"
                                autocomplete="off" tabindex="1" name="email" id="email"/>
                         <br/>
                         <br/>
                         <label>验证码：</label>
-                        <input class="itxt" type="text" style="width: 150px;" name="code" id="code"/>
+                        <input class="itxt" type="text" name="code" style="width: 150px;" id="code"/>
                         <img alt="" src="static/img/code.bmp" style="float: right; margin-right: 40px">
                         <br/>
                         <br/>
@@ -131,10 +153,10 @@
         </div>
     </div>
 </div>
-<div id="bottom">
-			<span>
-				尚硅谷.Copyright &copy;2021
-			</span>
-</div>
+
+<%--静态包含页脚内容--%>
+<%@include file="/pages/common/footer.jsp" %>
+
+
 </body>
 </html>

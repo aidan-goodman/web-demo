@@ -4,24 +4,32 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
-    <!-- 配置 RegistServlet 路径 -->
+    <!--    <servlet>
+            <servlet-name>registServlet</servlet-name>
+            <servlet-class>com.aidan.web.RegistServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>registServlet</servlet-name>
+            <url-pattern>/registServlet</url-pattern>
+        </servlet-mapping>
+
+        <servlet>
+            <servlet-name>loginServlet</servlet-name>
+            <servlet-class>com.aidan.web.LoginServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>loginServlet</servlet-name>
+            <url-pattern>/loginServlet</url-pattern>
+        </servlet-mapping>-->
+
     <servlet>
-        <servlet-name>registServlet</servlet-name>
-        <servlet-class>com.aidan.web.RegistServlet</servlet-class>
+        <servlet-name>userServlet</servlet-name>
+        <servlet-class>com.aidan.web.UserServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>registServlet</servlet-name>
-        <url-pattern>/registServlet</url-pattern>
+        <servlet-name>userServlet</servlet-name>
+        <url-pattern>/userServlet</url-pattern>
     </servlet-mapping>
 
-    <!-- 配置 LoginServlet 路径 -->
-    <servlet>
-        <servlet-name>loginServlet</servlet-name>
-        <servlet-class>com.aidan.web.LoginServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>loginServlet</servlet-name>
-        <url-pattern>/loginServlet</url-pattern>
-    </servlet-mapping>
 
 </web-app>

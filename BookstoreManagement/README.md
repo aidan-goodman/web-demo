@@ -11,6 +11,10 @@ jar 包统一在 [Maven Repository](https://mvnrepository.com/) 进行下载，*
 * mysql-connector-java-8.0.25
 * druid-1.2.6
 * [单元测试支持包]
+* servlet-api
+* commons-dbutils-1.7
+* commons-beanutils-1.9.4
+* commons-logging-1.2（使用 BeanUtils 时必须导入）
 
 ## 运用技术
 
@@ -39,17 +43,17 @@ H5+C3+JS+JQuery、Servlet、Cookie&Session、Filter、XML&JSON、Ajax
     3. 因为只是静态页面，这里的验证码判断有内容输入即可
 3. 登陆成功跳转到 regist_success.html 页面
 
-### 二次更新
+### 第二次更新
 
-![三层架构](web/static/img/Three-tier%20architecture.jpg)
+![三层架构](web/static/img/Architecture.jpg)
 
 1. 完善项目结构：根据三层架构对将要编写的业务代码进行解耦，方便后期维护和扩展升级
-   * **web 层**
-   * **service.impl 层**
-   * **dao.impl 层**
-   * **pojo 层**
-   * test 测试包
-   * utils 工具类
+    * **web 层**
+    * **service.impl 层**
+    * **dao.impl 层**
+    * **pojo 层**
+    * test 测试包
+    * utils 工具类
 2. 创建数据库和所需要的表
    ```sql
       drop database if exists book;
@@ -76,11 +80,23 @@ H5+C3+JS+JQuery、Servlet、Cookie&Session、Filter、XML&JSON、Ajax
     3. 创建 BaseDao 父类对通用的 CRUD 方法进行封装
     4. 完成 UserDao 的实现，用户模块持久层编写完成
 5. 使用 UserService 完成登录注册以及检查用户名是否存在
-6. 完成 LoginServlet 和 RegistServlet 
+6. 完成 LoginServlet 和 RegistServlet
 
+### 第三次更新
 
+主要是将 html 文件替换为 JSP 文件和优化代码文件，都 MVC 思想了，还在 JSP 里写 Java 确实有点不纯粹
 
+如果 IDEA 对 JSP 没有代码提示或者报错的情况，在依赖中导入 Tomcat Libraries 就好了（一个现在用不到的新技能）
 
+* 将所有公共 html 代码进行整合到 JSP 文件中，使用 `<%@ include file="/pages/common/head.jsp" %>` 来导入，减少冗余
+* 将项目路径改成动态获取的形式 `request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort()`
+* 使用设置 request 属性的方式实现错误信息的回显
+  ![Info echo](web/static/img/Information_echo.jpg)
+* 合并 LoginServlet 和 RegistServlet 为 UserServlet
+  ![ServletReflect](web/static/img/ServletReflect.jpg)
+    1. 为每个功能请求页面（Login、Regist）的表单中创建一个隐藏的输入项：`<input type="hidden" name="action" value="login"/>`，用来做方法判断
+    2. `String action = req.getParameter("action");`来获取方法，使用反射来调用（if...else不够优雅）
+* 编写了 BeanUtils 方便将参数注入对象（应对参数过多的情况）
 
 
 
