@@ -96,7 +96,7 @@ H5+C3+JS+JQuery、Servlet、Cookie&Session、Filter、XML&JSON、Ajax
     2. `String action = req.getParameter("action");`来获取方法，使用反射来调用（if...else不够优雅）
 * 编写了 BeanUtils 方便将参数注入对象（应对参数过多的情况）
 
-![](web/static/img/ServletReflect.jpg)
+<img src="web/static/img/ServletReflect.jpg" align="left" width="60%" height="60%">
 
 
 

@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="修复更新">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/README.md" afterDir="false" />
     </list>
     <list id="0d206641-ca83-4506-83f5-df0d7eac7362" name="ignored" comment="" />
@@ -227,7 +226,7 @@
       <workItem from="1628525484107" duration="4174000" />
       <workItem from="1628529855801" duration="122000" />
       <workItem from="1628556308320" duration="7595000" />
-      <workItem from="1628576168913" duration="1053000" />
+      <workItem from="1628576168913" duration="1398000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1628343189982</created>
@@ -313,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628576688757</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="修复更新">
+      <created>1628577329846</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1628577329846</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
