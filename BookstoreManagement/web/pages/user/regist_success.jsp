@@ -22,7 +22,7 @@
 
 <div id="main">
 
-    <h1 style="text-align: center;margin-top: 200px;">注册成功! <a style="color: red" href="index.jsp">转到主页</a></h1>
+    <h1 style="text-align: center;margin-top: 200px;">注册成功! <a style="color: red" href="pages/user/login.jsp">转到登录</a></h1>
 
 </div>
 

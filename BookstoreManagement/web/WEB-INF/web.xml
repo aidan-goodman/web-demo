@@ -32,7 +32,6 @@
     </servlet-mapping>
 
 
-
     <servlet>
         <servlet-name>bookServlet</servlet-name>
         <servlet-class>com.aidan.web.BookServlet</servlet-class>
@@ -52,6 +51,27 @@
     <servlet-mapping>
         <servlet-name>clientBookServlet</servlet-name>
         <url-pattern>/client/bookServlet</url-pattern>
+    </servlet-mapping>
+
+
+        <servlet>
+            <servlet-name>kaptchaServlet</servlet-name>
+            <servlet-class>com.google.code.kaptcha.servlet.KaptchaServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>kaptchaServlet</servlet-name>
+            <url-pattern>/kaptcha.jpg</url-pattern>
+        </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>cartServlet</servlet-name>
+        <servlet-class>com.aidan.web.CartServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>cartServlet</servlet-name>
+        <url-pattern>/cartServlet</url-pattern>
     </servlet-mapping>
 
 </web-app>

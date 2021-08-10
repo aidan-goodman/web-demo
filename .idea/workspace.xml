@@ -7,7 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="修复更新">
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/pojo/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/pojo/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/test/CartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/CartServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/lib/filters-2.0.235.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/lib/kaptcha-2.3.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/BookstoreManagement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/BookstoreManagement.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/cart/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/cart/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/cart/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/cart/checkout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/client/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/client/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/login_success_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/login_success_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist_success.jsp" afterDir="false" />
     </list>
     <list id="0d206641-ca83-4506-83f5-df0d7eac7362" name="ignored" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +35,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="TestNG Test Class" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="TestNG Test Class" />
       </list>
     </option>
   </component>
@@ -35,6 +51,13 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/web.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookstoreManagement/web/pages/common/login_success_menu.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookstoreManagement/web/pages/client/index.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/UserServlet.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JspContextManager">
     <jsp-to-context jsp-file="file://$PROJECT_DIR$/BookstoreManagement/web/pages/common/head.jsp" context-file="file://$PROJECT_DIR$/BookstoreManagement/web/pages/cart/checkout.jsp" />
@@ -79,8 +102,8 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/BookstoreManagement/web/pages/client" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/lib" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.16104871" />
     <property name="project.structure.side.proportion" value="0.22144522" />
     <property name="settings.editor.selected.configurable" value="database.main" />
@@ -88,16 +111,19 @@
   <component name="Push.Settings">
     <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.aidan.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\pages\client" />
       <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\WEB-INF\lib" />
+      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\src\com\aidan\web" />
+      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\src\com\aidan\pojo" />
+      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\pages\client" />
       <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\static\img" />
-      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\src\com\aidan\test" />
-      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\static\script" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -110,6 +136,8 @@
     <configuration name="Bookstore" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.0-M9" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11">
       <option name="BROWSER_ID" value="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="BookstoreManagement">
@@ -226,7 +254,9 @@
       <workItem from="1628525484107" duration="4174000" />
       <workItem from="1628529855801" duration="122000" />
       <workItem from="1628556308320" duration="7595000" />
-      <workItem from="1628576168913" duration="1398000" />
+      <workItem from="1628576168913" duration="6459000" />
+      <workItem from="1628583383152" duration="8770000" />
+      <workItem from="1628599695512" duration="1995000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1628343189982</created>
@@ -319,7 +349,35 @@
       <option name="project" value="LOCAL" />
       <updated>1628577329846</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="修复更新">
+      <created>1628577589150</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1628577589150</updated>
+    </task>
+    <task id="LOCAL-00015" summary="修复更新">
+      <created>1628577670753</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1628577670753</updated>
+    </task>
+    <task id="LOCAL-00016" summary="修复更新">
+      <created>1628577784169</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1628577784169</updated>
+    </task>
+    <task id="LOCAL-00017" summary="修复更新">
+      <created>1628577824330</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1628577824330</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
