@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="四次更新">
+    <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="修复更新">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/README.md" afterDir="false" />
     </list>
@@ -107,29 +107,11 @@
       <recent name="com.aidan.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Bookstore">
-    <configuration name="BookDaoTest.testQueryForPageTotalCount" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BookstoreManagement" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aidan.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.aidan.test" />
-      <option name="MAIN_CLASS_NAME" value="com.aidan.test.BookDaoTest" />
-      <option name="METHOD_NAME" value="testQueryForPageTotalCount" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Bookstore" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.0-M9" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11">
       <option name="BROWSER_ID" value="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="BookstoreManagement">
           <settings>
@@ -215,11 +197,6 @@
         </option>
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.BookDaoTest.testQueryForPageTotalCount" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -250,7 +227,7 @@
       <workItem from="1628525484107" duration="4174000" />
       <workItem from="1628529855801" duration="122000" />
       <workItem from="1628556308320" duration="7595000" />
-      <workItem from="1628576168913" duration="499000" />
+      <workItem from="1628576168913" duration="1053000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1628343189982</created>
@@ -329,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628565119216</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="修复更新">
+      <created>1628576688757</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1628576688757</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,6 +347,7 @@
     <MESSAGE value="二次更新" />
     <MESSAGE value="三次更新" />
     <MESSAGE value="四次更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="四次更新" />
+    <MESSAGE value="修复更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复更新" />
   </component>
 </project>
