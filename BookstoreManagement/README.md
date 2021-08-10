@@ -96,19 +96,7 @@ H5+C3+JS+JQuery、Servlet、Cookie&Session、Filter、XML&JSON、Ajax
     2. `String action = req.getParameter("action");`来获取方法，使用反射来调用（if...else不够优雅）
 * 编写了 BeanUtils 方便将参数注入对象（应对参数过多的情况）
 
-<img src="web/static/img/Information_echo.jpg" align="left" width="450" height="220"  >
-<img src="web/static/img/ServletReflect.jpg" align="right" width="450" height="220"  >
-
-
-[comment]: <> (    1. 为每个功能请求页面（Login、Regist）的表单中创建一个隐藏的输入项：`<input type="hidden" name="action" value="login"/>`，用来做方法判断)
-
-[comment]: <> (    2. `String action = req.getParameter&#40;"action"&#41;;`来获取方法，使用反射来调用（if...else不够优雅）)
-
-[comment]: <> (* 编写了 BeanUtils 方便将参数注入对象（应对参数过多的情况）)
-
-[comment]: <> (<img src="web/static/img/Information_echo.jpg" align="left" width="450" height="220"  >)
-
-[comment]: <> (<img src="web/static/img/ServletReflect.jpg" align="right" width="450" height="220"  >)
+![](web/static/img/ServletReflect.jpg)
 
 
 ### 第四次更新
@@ -132,17 +120,18 @@ jar 包(2.0.0)成功解决了 `jalarta.servlet.jsp.jstl-2.0.0`、`jalarta.servle
 
 对分页条进行封装，使用静态包含的方式来引用，方便统一管理
 
-[comment]: <> (* 将所有公共 html 代码进行整合到 JSP 文件中，使用 `<%@ include file="/pages/common/head.jsp" %>` 来导入，减少冗余)
 
-[comment]: <> (* 将项目路径改成动态获取的形式 `request.getScheme&#40;&#41; + "://" + request.getServerName&#40;&#41; + ":" + request.getServerPort&#40;&#41;`)
+### 第五次更新
 
-[comment]: <> (* 使用设置 request 属性的方式实现错误信息的回显)
+对 index.jsp 冲定向至 client/index.jsp 这样即使为了进行分页请求，同时为后续权限隔离做准备
 
-[comment]: <> (* 合并 LoginServlet 和 RegistServlet 为 UserServlet)
+完成 index.jsp 展示的分页处理
 
+对 index.jsp 添加按价格区间查询的功能（封装于图书模块中），同时添加了查询价格回显的功能
 
+遇到 BUG: 在价格查询后的分页中，进行页码跳转会导致跳出价格查询功能
 
-
+解决方式：使用 StringBuilder 将价格区间添加到 url
 
 
 

@@ -7,17 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="四次更新">
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/ClientBookServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/client/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/pojo/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/pojo/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_manager.jsp" afterDir="false" />
     </list>
     <list id="0d206641-ca83-4506-83f5-df0d7eac7362" name="ignored" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -258,7 +249,8 @@
       <workItem from="1628517688253" duration="6656000" />
       <workItem from="1628525484107" duration="4174000" />
       <workItem from="1628529855801" duration="122000" />
-      <workItem from="1628556308320" duration="6338000" />
+      <workItem from="1628556308320" duration="7595000" />
+      <workItem from="1628576168913" duration="499000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1628343189982</created>
@@ -330,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628529682567</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="四次更新">
+      <created>1628565119216</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1628565119216</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
