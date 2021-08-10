@@ -10,7 +10,8 @@ public class BookDaoImpl extends BaseDao implements BookDao {
     @Override
     public int addBook(Book book) {
         String sql = "insert into t_book(`name`,`author`,`price`,`sales`,`stock`,`img_path`) values(?,?,?,?,?,?)";
-        return update(sql, book.getName(), book.getAuthor(), book.getPrice(), book.getSales(), book.getStock(), book.getImgPath());
+        return update(sql, book.getName(), book.getAuthor(), book.getPrice(),
+                book.getSales(), book.getStock(), book.getImgPath());
 
     }
 
@@ -23,12 +24,14 @@ public class BookDaoImpl extends BaseDao implements BookDao {
     @Override
     public int updateBook(Book book) {
         String sql = "update t_book set `name`=?,`author`=?,`price`=?,`sales`=?,`stock`=?,`img_path`=? where id = ?";
-        return update(sql, book.getName(), book.getAuthor(), book.getPrice(), book.getSales(), book.getStock(), book.getImgPath(), book.getId());
+        return update(sql, book.getName(), book.getAuthor(), book.getPrice(),
+                book.getSales(), book.getStock(), book.getImgPath(), book.getId());
     }
 
     @Override
     public Book queryBookById(Integer id) {
-        String sql = "select `id` , `name` , `author` , `price` , `sales` , `stock` , `img_path` imgPath from t_book where id = ?";
+        String sql = "select `id` , `name` , `author` , `price` , `sales` , `stock` , " +
+                "`img_path` imgPath from t_book where id = ?";
         return queryForOne(Book.class, sql, id);
     }
 
@@ -47,7 +50,8 @@ public class BookDaoImpl extends BaseDao implements BookDao {
 
     @Override
     public List<Book> queryForPageItems(int begin, int pageSize) {
-        String sql = "select `id` , `name` , `author` , `price` , `sales` , `stock` , `img_path` imgPath from t_book limit ?,?";
+        String sql = "select `id` , `name` , `author` , `price` , `sales` , `stock` , " +
+                "`img_path` imgPath from t_book limit ?,?";
         return queryForList(Book.class, sql, begin, pageSize);
     }
 

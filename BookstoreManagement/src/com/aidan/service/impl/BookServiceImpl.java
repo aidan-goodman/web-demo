@@ -65,6 +65,7 @@ public class BookServiceImpl implements BookService {
         return page;
     }
 
+    @Override
     public Page<Book> pageByPrice(int pageNo, int pageSize, int min, int max) {
         Page<Book> page = new Page<>();
 

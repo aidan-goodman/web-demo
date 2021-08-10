@@ -5,7 +5,7 @@ import java.util.List;
 // 设置为泛型，方便对其他模块进行分页功能的扩展
 public class Page<T> {
 
-    public static final Integer PAGE_SIZE = 5;
+    public static final Integer PAGE_SIZE = 4;
     // 当前页码
     private Integer pageNo;
 

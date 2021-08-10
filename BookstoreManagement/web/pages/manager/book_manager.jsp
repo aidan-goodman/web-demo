@@ -71,17 +71,18 @@
             <td></td>
             <td></td>
             <td></td>
-            <td><a href="pages/manager/book_edit.jsp?pageNo=${requestScope.page.pageTotal}&pageTotalCount=${requestScope.page.pageTotalCount}">添加图书</a></td>
+            <td>
+                <a href="pages/manager/book_edit.jsp?pageNo=${requestScope.page.pageTotal}&pageTotalCount=${requestScope.page.pageTotalCount}">添加图书</a>
+            </td>
         </tr>
     </table>
 
-
-    <%--静态包含分页条--%>
-    <%@include file="/pages/common/page_nav.jsp" %>
+    <div style="position: absolute;bottom: 150px;left: 400px">
+        <%--静态包含分页条--%>
+        <%@include file="/pages/common/page_nav.jsp" %>
+    </div>
 
 </div>
-
-
 <%--静态包含页脚内容--%>
 <%@include file="/pages/common/footer.jsp" %>
 
