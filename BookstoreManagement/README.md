@@ -88,8 +88,6 @@ H5+C3+JS+JQuery、Servlet、Cookie&Session、Filter、XML&JSON、Ajax
 
 如果 IDEA 对 JSP 没有代码提示或者报错的情况，在依赖中导入 Tomcat Libraries 就好了（一个现在用不到的新技能）
 
-<img src="web/static/img/ServletReflect.jpg" align="right" width="60%" height="60%">
-
 * 将所有公共 html 代码进行整合到 JSP 文件中，使用 `<%@ include file="/pages/common/head.jsp" %>` 来导入，减少冗余
 * 将项目路径改成动态获取的形式 `request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort()`
 * 使用设置 request 属性的方式实现错误信息的回显
@@ -97,6 +95,9 @@ H5+C3+JS+JQuery、Servlet、Cookie&Session、Filter、XML&JSON、Ajax
     1. 为每个功能请求页面（Login、Regist）的表单中创建一个隐藏的输入项：`<input type="hidden" name="action" value="login"/>`，用来做方法判断
     2. `String action = req.getParameter("action");`来获取方法，使用反射来调用（if...else不够优雅）
 * 编写了 BeanUtils 方便将参数注入对象（应对参数过多的情况）
+
+<img src="web/static/img/ServletReflect.jpg" align="left" width="60%" height="60%">
+<br><br><br><br><br><br><br><br><br>
 
 
 ### 第四次更新
