@@ -95,8 +95,7 @@ H5+C3+JS+JQuery、Servlet、Cookie&Session、Filter、XML&JSON、Ajax
     1. 为每个功能请求页面（Login、Regist）的表单中创建一个隐藏的输入项：`<input type="hidden" name="action" value="login"/>`，用来做方法判断
     2. `String action = req.getParameter("action");`来获取方法，使用反射来调用（if...else不够优雅）
 * 编写了 BeanUtils 方便将参数注入对象（应对参数过多的情况）
-
-![](web/static/img/ServletReflect.jpg)
+<img src="web/static/img/ServletReflect.jpg" align="left" width="60%" height="60%">
 
 
 ### 第四次更新
