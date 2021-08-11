@@ -3,11 +3,14 @@ package com.aidan.web;
 import com.aidan.pojo.User;
 import com.aidan.service.UserService;
 import com.aidan.service.impl.UserServiceImpl;
+import com.google.gson.Gson;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 import static com.google.code.kaptcha.Constants.KAPTCHA_SESSION_KEY;
 
@@ -15,6 +18,23 @@ import static com.google.code.kaptcha.Constants.KAPTCHA_SESSION_KEY;
 public class UserServlet extends BaseServlet {
 
     private final UserService userService = new UserServiceImpl();
+
+    protected void ajaxExistsUsername(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        // 获取请求的参数username
+        String username = req.getParameter("username");
+        // 调用userService.existsUsername();
+        boolean existsUsername = userService.existsUsername(username);
+        // 把返回的结果封装成为map对象
+        Map<String,Object> resultMap = new HashMap<>();
+        resultMap.put("existsUsername",existsUsername);
+
+        Gson gson = new Gson();
+        String json = gson.toJson(resultMap);
+
+        resp.getWriter().write(json);
+    }
+
+
 
     /**
      * 登录功能
@@ -56,10 +76,6 @@ public class UserServlet extends BaseServlet {
      * @throws Exception
      */
     protected void regist(HttpServletRequest req, HttpServletResponse resp) throws Exception {
-
-        // 解决post请求中文乱码问题
-        // 一定要在获取请求参数之前调用才有效
-        req.setCharacterEncoding("UTF-8");
 
         // 获取Session中的验证码
         String token = (String) req.getSession().getAttribute(KAPTCHA_SESSION_KEY);
