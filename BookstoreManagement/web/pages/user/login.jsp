@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>尚硅谷会员登录页面</title>
+    <title>吸溜会员登录页面</title>
 
     <%-- 静态包含 base标签、css样式、jQuery文件 --%>
     <%@ include file="/pages/common/head.jsp" %>
@@ -25,7 +25,7 @@
         <div class="login_form">
             <div class="login_box">
                 <div class="tit">
-                    <h1>尚硅谷会员</h1>
+                    <h1>吸溜会员</h1>
                     <a href="pages/user/regist.jsp">立即注册</a>
                 </div>
                 <div class="msg_cont">

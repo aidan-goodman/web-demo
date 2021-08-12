@@ -6,35 +6,33 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="五次更新">
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/dao/OrderItemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/dao/impl/OrderDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/dao/impl/OrderItemDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/filter/ManagerFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/filter/TransactionFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/pojo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/pojo/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/OrderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/lib/gson-2.8.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/error/error404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/error/error500.jsp" afterDir="false" />
+    <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="六次更新">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/BookstoreManagement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/BookstoreManagement.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/dao/impl/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/dao/impl/BaseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/utils/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/utils/JdbcUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/BaseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/CartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/src/com/aidan/web/UserServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/cart/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/cart/cart.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/cart/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/cart/checkout.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/client/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/client/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/login_success_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/login_success_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/manager_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/manager_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/page_nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/page_nav.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/error/error404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/error/error404.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/error/error500.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/error/error500.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/manager.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/order_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/order_manager.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/order/order.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/order/order.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/login_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/login_success.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist_success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/static/img/default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/static/img/default.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/static/img/logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/static/img/logo.gif" afterDir="false" />
     </list>
     <list id="0d206641-ca83-4506-83f5-df0d7eac7362" name="ignored" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +111,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/BookstoreManagement/web/pages/order" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BookstoreManagement/web/static/img" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.16104871" />
     <property name="project.structure.side.proportion" value="0.22144522" />
@@ -130,11 +128,11 @@
       <recent name="com.aidan.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\static\img" />
       <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\pages\order" />
       <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\WEB-INF\lib" />
       <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\pages\error" />
       <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\src\com\aidan\filter" />
-      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\src\com\aidan\web" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -269,7 +267,11 @@
       <workItem from="1628583383152" duration="8770000" />
       <workItem from="1628599695512" duration="2031000" />
       <workItem from="1628644984144" duration="13253000" />
-      <workItem from="1628695700477" duration="2623000" />
+      <workItem from="1628695700477" duration="2799000" />
+      <workItem from="1628729233173" duration="2972000" />
+      <workItem from="1628782537193" duration="126000" />
+      <workItem from="1628782892028" duration="488000" />
+      <workItem from="1628783453183" duration="841000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1628343189982</created>
@@ -397,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628601737329</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="六次更新">
+      <created>1628698408816</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1628698408816</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,6 +442,7 @@
     <MESSAGE value="四次更新" />
     <MESSAGE value="修复更新" />
     <MESSAGE value="五次更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="五次更新" />
+    <MESSAGE value="六次更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="六次更新" />
   </component>
 </project>

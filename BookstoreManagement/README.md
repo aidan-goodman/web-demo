@@ -153,8 +153,6 @@ H5+C3+JS+JQuery、Servlet、Cookie&Session、Filter、XML&JSON、Ajax
 
 ### 第七次更新
 
-**订单模块：**
-
 * 添加购物车界面的订单下单功能，可以在数据库和订单界面查看已下单的订单信息 
 * 实现 Filter 过滤功能，对 URL 访问进行一定量的拦截（登录获得访问权限）
 * 对下单功能增加了事务管理，使用 ThreadLocal + Filter 后置代码的方式实现，防止出现下单未完成，数据却局部保存的情况
