@@ -6,33 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="六次更新">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="七次更新">
       <change beforePath="$PROJECT_DIR$/BookstoreManagement/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/cart/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/cart/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/cart/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/cart/checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/client/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/client/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/login_success_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/login_success_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/manager_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/manager_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/page_nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/common/page_nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/error/error404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/error/error404.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/error/error500.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/error/error500.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/book_manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/order_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/manager/order_manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/order/order.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/order/order.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/login_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/login_success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/pages/user/regist_success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/static/img/default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/static/img/default.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/web/static/img/logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/web/static/img/logo.gif" afterDir="false" />
     </list>
     <list id="0d206641-ca83-4506-83f5-df0d7eac7362" name="ignored" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -272,6 +247,7 @@
       <workItem from="1628782537193" duration="126000" />
       <workItem from="1628782892028" duration="488000" />
       <workItem from="1628783453183" duration="841000" />
+      <workItem from="1628784331175" duration="841000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1628343189982</created>
@@ -406,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628698408816</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="七次更新">
+      <created>1628784478670</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1628784478670</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,6 +426,7 @@
     <MESSAGE value="修复更新" />
     <MESSAGE value="五次更新" />
     <MESSAGE value="六次更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="六次更新" />
+    <MESSAGE value="七次更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="七次更新" />
   </component>
 </project>

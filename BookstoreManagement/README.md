@@ -15,6 +15,11 @@ jar 包统一在 [Maven Repository](https://mvnrepository.com/) 进行下载，*
 * commons-dbutils-1.7
 * commons-beanutils-1.9.4
 * commons-logging-1.2（使用 BeanUtils 时必须导入）
+* jsp.jstl-[api]-2.0.0
+* taglibs-standard-impl&spec-1.2.5
+* kaptcha-2.3.2
+* gson-2.8.7
+* filters-2.0.235
 
 ## 运用技术
 
@@ -22,11 +27,19 @@ H5+C3+JS+JQuery、Servlet、Cookie&Session、Filter、XML&JSON、Ajax
 
 ## 项目介绍
 
-**！没有应用到框架**
+**！没有应用到框架！**
 
-使用基础 JavaWeb 技术实现的一个简单但功能完善的书城管理系统，算是对技术的一个融合，用来入门我感觉还是不错
+为了借助这个项目夯实基础，使用基础 JavaWeb 技术实现的一个简单但功能完善的书城管理系统，算是对技术的一个融合，用来入门我感觉还是不错
 
-### 界面功能
+### 功能模块
+
+**用户模块：** 实现用户的注册和登录
+
+**图书模块：** 对数据库中保存的书籍项进行分页显示
+
+**购物车模块：** 用户可以在图书页（主页）对书籍进行添加购物车的操作，购物车内容可以修改和删除
+
+**订单模块：** 用户可以再购物车进行商品的下单，可以查询所有订单的详情（日期、状态等）
 
 ......
 
