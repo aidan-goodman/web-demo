@@ -87,15 +87,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/Book/jar包/jakarta.servlet.jsp.jstl-api-2.0.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="taglibs-standard-impl-1.2.5">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar!/" />
