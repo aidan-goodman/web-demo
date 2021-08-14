@@ -6,16 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="create WordGame">
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/GameView1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/GameView2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/LoginView.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/ManageView.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/RankView.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/RecordView.PNG" afterDir="false" />
+    <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="Complete WordGame">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Movies_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookstoreManagement/BookstoreManagement.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EnglishWordGame/EnglishWordGame.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/TrendMap.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <list id="0d206641-ca83-4506-83f5-df0d7eac7362" name="ignored" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +91,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/EnglishWordGame/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Movies/web" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.16104871" />
     <property name="project.structure.side.proportion" value="0.22144522" />
@@ -111,11 +108,11 @@
       <recent name="com.aidan.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\Movies\web" />
+      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement" />
+      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo" />
+      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\EnglishWordGame" />
       <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\EnglishWordGame\web\WEB-INF\lib" />
-      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\EnglishWordGame\web" />
-      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\EnglishWordGame\src" />
-      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\static\img" />
-      <recent name="C:\Data Files\Code Files\IDEA Files\WebDemo\BookstoreManagement\web\pages\order" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -353,7 +350,8 @@
       <workItem from="1628783453183" duration="841000" />
       <workItem from="1628784331175" duration="876000" />
       <workItem from="1628863938892" duration="4826000" />
-      <workItem from="1628913690448" duration="3574000" />
+      <workItem from="1628913690448" duration="6203000" />
+      <workItem from="1628933978303" duration="600000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1628343189982</created>
@@ -509,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628868786343</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Complete WordGame">
+      <created>1628917324699</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1628917324699</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,6 +554,7 @@
     <MESSAGE value="七次更新" />
     <MESSAGE value="asfasdgafsd" />
     <MESSAGE value="create WordGame" />
-    <option name="LAST_COMMIT_MESSAGE" value="create WordGame" />
+    <MESSAGE value="Complete WordGame" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete WordGame" />
   </component>
 </project>
