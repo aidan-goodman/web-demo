@@ -6,169 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="asfasdgafsd">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/EnglishWordGame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/EnglishWordGame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/src/com/aidan/dao/NotesDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/src/com/aidan/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/src/com/aidan/dao/WordDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/src/com/aidan/pojo/Notes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/src/com/aidan/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/src/com/aidan/pojo/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/src/com/aidan/servlet/AjaxServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/src/com/aidan/servlet/FilterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/src/com/aidan/servlet/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/src/com/aidan/servlet/PlayServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/src/com/aidan/servlet/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/src/com/aidan/servlet/WordServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/src/com/aidan/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/src/com/aidan/util/DBUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/src/com/aidan/util/Pagination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/src/com/aidan/util/PlayPassingValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/src/com/aidan/util/ScorePassingValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/WEB-INF/lib/jakarta.servlet.jsp.jstl-2.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-2.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/WEB-INF/lib/mysql-connector-java-8.0.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/add-words.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/common/features.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/fulls/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/fulls/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/fulls/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/fulls/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/fulls/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/fulls/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/intro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/pic01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/pic02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/pic03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/pic04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/pic05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/thumbs/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/thumbs/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/thumbs/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/thumbs/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/thumbs/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/thumbs/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/css/images/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/css/images/bars.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/css/images/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/css/noscript.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/js/breakpoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/js/browser.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/js/jquery.scrollex.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/js/jquery.scrolly.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/js/sign-up.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/js/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/sass/libs/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/sass/libs/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/sass/libs/_html-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/sass/libs/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/sass/libs/_vars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/sass/libs/_vendor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/loginassets/sass/noscript.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/modify-word.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/my-index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/password-changing.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/play-index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/play-welcome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/css/images/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/css/images/dark-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/css/images/overlay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/css/images/poptrox-closer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/css/images/poptrox-nav.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/css/noscript.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/js/breakpoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/js/browser.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/js/jquery.poptrox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/js/jquery.scrollex.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/js/jquery.scrolly.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/js/time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/js/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/js/wheel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/base/_page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/base/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/base/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/components/_actions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/components/_box.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/components/_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/components/_form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/components/_gallery.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/components/_icon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/components/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/components/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/components/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/components/_poptrox-popup.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/components/_section.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/components/_table.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/layout/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/layout/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/layout/_main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/libs/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/libs/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/libs/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/libs/_vars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/libs/_vendor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/playassets/sass/noscript.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/css/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/css/images/ie/footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/css/images/ie/footer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/css/images/overlay-pattern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/css/images/overlay.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/css/noscript.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/sass/libs/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/sass/libs/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/sass/libs/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/sass/libs/_vars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/sass/libs/_vendor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rankassets/sass/noscript.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/rememberUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/score-index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/sign-up.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/word-index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="86553baa-553c-4612-80eb-47fef29cfda6" name="Changes" comment="create WordGame">
+      <change afterPath="$PROJECT_DIR$/EnglishWordGame/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/GameView1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/GameView2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/LoginView.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/ManageView.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/RankView.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EnglishWordGame/web/images/RecordView.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookstoreManagement/BookstoreManagement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BookstoreManagement/BookstoreManagement.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <list id="0d206641-ca83-4506-83f5-df0d7eac7362" name="ignored" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -505,7 +352,8 @@
       <workItem from="1628782892028" duration="488000" />
       <workItem from="1628783453183" duration="841000" />
       <workItem from="1628784331175" duration="876000" />
-      <workItem from="1628863938892" duration="4595000" />
+      <workItem from="1628863938892" duration="4826000" />
+      <workItem from="1628913690448" duration="3574000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1628343189982</created>
@@ -654,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628785206087</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="create WordGame">
+      <created>1628868786343</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1628868786343</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -693,6 +548,7 @@
     <MESSAGE value="六次更新" />
     <MESSAGE value="七次更新" />
     <MESSAGE value="asfasdgafsd" />
-    <option name="LAST_COMMIT_MESSAGE" value="asfasdgafsd" />
+    <MESSAGE value="create WordGame" />
+    <option name="LAST_COMMIT_MESSAGE" value="create WordGame" />
   </component>
 </project>
