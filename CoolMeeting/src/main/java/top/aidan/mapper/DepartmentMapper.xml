@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.aidan.mapper.DepartmentMapper">
+
+    <select id="getDepById" resultType="top.aidan.bean.Department">
+        select *
+        from department
+        where departmentid = #{id}
+    </select>
+
+    <select id="getAllDeps" resultType="top.aidan.bean.Department">
+        select *
+        from department;
+    </select>
+
+    <insert id="addDepartment" parameterType="java.lang.String">
+        insert into department (departmentname)
+        values (#{departmentname});
+    </insert>
+
+    <delete id="deleteDep">
+        delete
+        from department
+        where departmentid = #{departmentid}
+    </delete>
+
+    <update id="updateDep">
+        update department set departmentname=#{departmentname} where departmentid = #{departmentid}
+    </update>
+
+</mapper>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.aidan.mapper.EmployeeMapper">
+
+    <select id="loadEmpByUsername" resultType="top.aidan.bean.Employee">
+        select *
+        from employee
+        where username = #{username};
+    </select>
+
+    <insert id="doRegister" parameterType="top.aidan.bean.Employee">
+        insert into employee (employeename, username, phone, email, status, departmentid, password, role)
+        values (#{employeename}, #{username}, #{phone}, #{email}, #{status}, #{departmentid}, #{password}, #{role});
+    </insert>
+
+    <select id="getAllEmpsByStatus" resultType="top.aidan.bean.Employee">
+        select *
+        from employee
+        where status = #{status};
+    </select>
+
+    <update id="approveaccount" parameterType="top.aidan.bean.Employee">
+        update employee
+        set status = #{status}
+        where employeeid = #{employeeid};
+    </update>
+
+    <select id="getAllEmployees" resultType="top.aidan.bean.Employee">
+        select * from employee where status=#{employee.status}
+        <if test="employee.employeename!=null">
+            and employeename like concat('%',#{employee.employeename},'%')
+        </if>
+        <if test="employee.username!=null">
+            and username like concat('%',#{employee.username},'%')
+        </if>
+        limit #{page},#{pageSize}
+    </select>
+
+    <select id="getTotal" resultType="java.lang.Long">
+        select count(*) from employee where status=#{status}
+        <if test="employeename!=null">
+            and employeename like concat('%',#{employeename},'%')
+        </if>
+        <if test="username!=null">
+            and username like concat('%',#{username},'%')
+        </if>
+    </select>
+
+</mapper>
